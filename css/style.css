@@ -1,0 +1,891 @@
+/*global start*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-size: 1.6rem;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:focus {
+    color: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/*global end*/
+
+/*header start*/
+.site-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+    background: #000;
+    transition: 0.4s cubic-bezier(0, 0, 0.13, 0.61);
+    transform: translateX(-100%);
+}
+
+.site-nav ul {
+    display: block;
+    padding: 75px 60px 0;
+}
+
+.menu-toggle {
+    display: block;
+	cursor:pointer;
+}
+
+.closed-menu {
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    top: -5px;
+    right: 15px;
+    display: inline-block;
+}
+.closed-menu a:hover {
+    color: #fff;
+}
+.closed-menu {
+    display: block;
+}
+
+.toggle .site-nav {
+    transform: translateX(0);
+}
+
+.closed-menu {
+    display: block;
+}
+
+.site-header {
+    padding: 20px 0;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 99;
+    transition: all 0.5s linear;
+}
+
+.site-header .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header.site-header.sticky {
+    background: #000;
+    box-shadow: 2px 5px 10px rgb(0 0 0 / 30%);
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    padding: 10px 0;
+}
+
+.site-logo img {
+    max-width: 20rem;
+}
+
+.site-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.site-nav li a {
+    font-size: 17px;
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    text-transform: capitalize;
+    color: #dabf8b;
+    position: relative;
+    white-space: nowrap;
+    font-family: 'Roboto Slab';
+}
+
+.site-nav li a::after {
+    content: "";
+    position: absolute;
+    border-bottom: 0.2rem solid #dabf8b;
+    width: 0%;
+    top: 100%;
+    left: 0%;
+    margin: 0 auto;
+    transition: all 0.3s linear;
+}
+
+.site-nav li a:hover::after {
+    width: 100%;
+    transition: all 0.3s linear;
+}
+
+.menu-toggle .bar-1,
+.bar-2,
+.bar-3 {
+    width: 2.5rem;
+    height: 2px;
+    background-color: #333;
+    margin: 0.6rem 0;
+    transition: all 0.3s linear;
+    display: block;
+}
+
+ul.dropdown-content {
+    position: absolute;
+    width: 250px;
+    background: transparent;
+    top: 100%;
+    left: 0;
+    background: #f1f1f1;
+    display: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.card__hotel {
+    height: 100%;
+}
+.hotel.text-card p:hover {
+    color: #000000;
+}
+.btn-hotel {
+    border: 1px solid #000000;
+    padding: 10px 20px;
+    color: #dcbf8b;
+    font-size: 16px;
+    background: #000;
+    white-space: nowrap;
+    font-weight: 600;
+    font-family: 'Marcellus';
+    border-radius: 4px;
+}
+
+.text-card a.btn-hotel:focus {
+    color: #000000;
+}
+.btn-hotel:hover {
+    background: #dcbf8b;
+    color: #000;
+    border: 1px solid #dcbf8b;
+}
+.card-inr img {
+    height: 300px;
+	object-fit:cover;
+}
+/*header end*/
+
+.footer {
+    background: #000;
+    margin-top: 40px;
+}
+
+.footer-body {
+    padding: 60px 0;
+}
+
+
+.footer-body h4 {
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    color: #fff;
+    margin: 0 0 2rem;
+}
+
+.social-icons img {
+    max-width: 18rem;
+}
+
+.social-icons p {
+    color: #fff;
+    margin: 1.5rem 0;
+}
+
+.social-icons ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social-icons a:last-child {
+    display: inline-block;
+    background: #7f8c8d;
+    margin-right: 1rem;
+    width: 4.5rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    text-align: center;
+    font-size: 2.5rem;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+.social-icons a:last-child:hover {
+    color: #dabf8b;
+    transform: rotate(180deg);
+}
+
+.useful-links li a {
+    color: #fff;
+    text-transform: capitalize;
+    padding-bottom: 1rem;
+    display: inline-block;
+}
+
+.our_service li a {
+    display: inline-block;
+    color: #fff;
+    padding-bottom: 1rem;
+}
+
+.contact-us p {
+    color: #fff;
+    margin: 0 0 2rem;
+}
+
+
+header.site-header.sticky .menu-toggle .bar-1,
+header.site-header.sticky .menu-toggle .bar-2,
+header.site-header.sticky .menu-toggle .bar-3 {
+    background-color: #fff;
+}
+
+.menu-toggle .bar-1,
+.bar-2,
+.bar-3 {
+    width: 40px;
+    height: 2px;
+    background-color: #fff;
+    margin: 0.6rem 0;
+    transition: all 0.3s linear;
+    display: block;
+}
+
+.bar-2 {
+    width: 30px;
+}
+
+.bd-header-top__meta span {
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.bd-header-top__meta a {
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 600;
+    opacity: 0.7;
+}
+
+.banner__section>.container-fluid {
+    padding: 0;
+}
+
+.banner__section {
+    position: relative;
+}
+
+.banner__section .owl-nav {
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    bottom: 35px;
+    left: 0;
+    right: 0;
+}
+
+.banner__main::after {
+    background-color: rgba(0 0 0/ 30%);
+    content: '';
+    position: absolute;
+    inset: 0;
+}
+
+.banner__section .owl-prev::before {
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #646464;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner__section.casino .owl-next::after {
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #513970;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #513970;
+}
+
+.banner__section.casino .owl-prev::before {
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner__section .owl-next::after {
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #dabf8b;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #dabf8b;
+}
+
+.banner__section .owl-theme .owl-nav [class*='owl-'] {
+    background: none !important;
+}
+
+.banner__section .owl-prev {
+    height: 0;
+    width: 0;
+    position: relative;
+    border-radius: 50%;
+    opacity: 1;
+    background: transparent;
+}
+
+.banner__section .owl-next {
+    height: 0;
+    width: 0;
+    position: relative;
+    border-radius: 50%;
+    opacity: 1;
+    background: transparent;
+}
+
+.banner__main {
+    position: relative;
+}
+
+.card-inr {
+    background: #fff;
+    transition: 0.4s;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    height: 100%;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.text-card {
+    padding: 30px;
+}
+
+.card-inr:hover {
+    transform: translateY(-8px);
+}
+.information__Content {
+    padding: 50px 0 0 0;
+}
+.information__Content p {
+    font-size: 15px;
+    font-family: 'Roboto Slab';
+    color: #000;
+    font-weight: 500;
+    text-align: center;
+}
+.hotel.text-card h2 {
+    color: #dabf8b;
+    font-family: 'Marcellus', serif;
+    font-weight: 600;
+}
+
+.hotel.text-card p {
+    font-family: 'Roboto Slab';
+    text-align: justify;
+    padding-bottom: 15px;
+}
+
+.hotel__cards {
+    padding: 50px 0;
+}
+
+.site-mail a {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.site-footer {
+    background: #000000;
+    padding: 50px 0;
+    margin: 30rem 0;
+}
+
+.social-icons a:last-child {
+    background-color: #dabf8b;
+}
+
+.social-icons a:last-child:hover {
+    color: #ffffff;
+    transform: rotate(180deg);
+}
+
+.useful-links ul {
+    display: flex;
+    gap: 20px;
+}
+
+.useful-links h4 {
+    font-size: 26px;
+    font-family: auto;
+}
+
+.contact-us h4 {
+    font-size: 26px;
+    font-family: auto;
+    margin-bottom: 15px;
+}
+
+.useful-links li a:hover {
+    color: #dabf8b;
+}
+
+
+.social-icons, .links__main {
+    border-right: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.contact-us {
+    margin-top: 20px;
+}
+
+.contact-us a {
+    color: #fff;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.contact-us a:hover {
+    color: #dabf8b;
+}
+
+.useful-links {
+    margin-top: 20px;
+}
+
+/*luxury-hotles-css */
+
+.luxury-hotel__content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.luxury-hotel__content span {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.8;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 40px;
+    display: inline-block;
+}
+
+.luxury-hotel__content h1 {
+    font-size: 50px;
+    line-height: 1.42;
+    text-transform: capitalize;
+    color: #fff;
+    text-align: center;
+    transition: all 0.3s ease-out 0s;
+    font-family: 'Gilda Display', serif;
+}
+
+.luxury-btn {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.luxury-btn a {
+    border: 1px solid;
+    padding: 15px 20px;
+    color: #fff;
+    font-family: 'Barlow';
+    text-transform: uppercase;
+}
+
+.luxury-btn a:hover {
+    background: #dabf8b;
+}
+
+.luxury-btn i {
+    padding-left: 5px;
+}
+
+.delux__section {
+    padding: 100px 0 0 0;
+}
+
+.delux__picture {
+    position: relative;
+}
+
+.delux__picture:hover::after {
+    transform: scale(1);
+}
+
+.delux__picture:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #c6ab728f;
+    transform: scale(0);
+    transition: all .5s;
+    width: 100%;
+    height: 100%;
+}
+
+.delux__title h2 {
+    font-size: 54px;
+    color: #000;
+    font-family: 'Gilda Display';
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.delux__content h3 {
+    font-size: 30px;
+    font-family: 'Barlow';
+    line-height: 40px;
+    color: #dabf8b;
+}
+
+.delux__content p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    font-family: 'Barlow';
+    line-height: 28px;
+    text-align: justify;
+}
+
+.delux__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding-left: 25px;
+}
+
+.delux__title {
+    margin-bottom: 50px;
+}
+
+.banner__main img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+.banner__main.part img {
+    height: auto;
+}
+
+.delux__picture img {
+    height: 100%;
+    width: 100%;
+}
+
+.delux__content.part {
+    padding-left: 0;
+    padding-right: 25px;
+}
+
+/*casino-hotles-css */
+.luxury-hotel__content.casino h1 {
+    line-height: 76px;
+    white-space: nowrap;
+    font-size: 50px;
+}
+
+.luxury-hotel__content.casino span {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+/*contactus--css */
+.contact__banner {
+    background-image: url("../images/contact-banner.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 640px;
+    position: relative;
+}
+
+.contact__banner::after {
+    position: absolute;
+    content: "";
+    inset: 0;
+    background: #00000082;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+}
+
+.contact__banner h1 {
+    font-size: 50px;
+  font-family: 'Roboto Slab';
+    color: #dabf8b;
+    position: absolute;
+    z-index: 1;
+    font-weight: 600;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.visiting__content {
+    padding: 50px 0;
+}
+
+.visiting__content p {
+    text-align: center;
+    font-size: 18px;
+    max-width: 50%;
+    margin: 0 auto;
+    font-family: 'Roboto Slab';
+}
+
+.service__card h3 {
+    font-size: 20px;
+    font-family: 'Roboto Slab';
+    font-weight: 600;
+    color: #dabf8b;
+}
+
+.service__card p {
+    font-size: 20px;
+    max-width: 95%;
+    line-height: 22px;
+    font-family: 'Barlow';
+    color: #000;
+	margin-top:10px;
+}
+
+.service__content.media {
+    padding: 30px 0 0 0;
+}
+
+.services__main {
+    padding: 40px 0;
+}
+
+.service__card a {
+    font-size: 18px;
+    font-family: 'Barlow';
+    color: #dabf8b;
+}
+
+.row.comments {
+    padding: 70px 0;
+}
+
+.commenting__section h3 {
+    font-size: 20px;
+    font-family: 'Roboto Slab';
+    font-weight: 600;
+    color: #dabf8b;
+}
+
+.commenting__section p {
+    font-size: 20px;
+    max-width: 95%;
+    margin-bottom: 20px;
+    line-height: 22px;
+    font-family: 'Barlow';
+    color: #000;
+}
+
+.commenting__section p {
+    font-size: 20px;
+    max-width: 95%;
+    margin-bottom: 20px;
+    line-height: 22px;
+    font-family: 'Barlow';
+    color: #000;
+}
+
+.best-wishes h4 {
+    font-size: 20px;
+    font-family: 'Roboto Slab';
+    color: #DABF8A;
+    font-weight: 600;
+}
+
+.row.commenting__section {
+    padding: 50px 0;
+}
+
+/* Privacy-css*/
+.privacy__content {
+    padding: 100px 0;
+    background-image: url(../images/privacybanner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 640px;
+    position: relative;
+}
+
+.privacy__text h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Roboto Slab';
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    color: #dabf8b;
+    font-weight: 600;
+}
+
+.privacy__details .privacy__logs,
+.privacy__logs,
+.privacy__policy,
+.third__party,
+.child__info,
+.online__policy,
+.Consentement__part h3 {
+    font-size: 20px;
+    font-family: 'Roboto Slab';
+    font-weight: 500;
+    color: #dabf8b;
+}
+
+.privacy__details {
+    font-size: 20px;
+    font-family: 'Roboto Slab';
+    font-weight: 600;
+    color: #dabf8b;
+}
+
+.privacy__infos {
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Barlow';
+    color: #000;
+    font-weight: 400;
+}
+
+.privacy__section {
+    padding: 50px 0 0 0;
+}
+
+/* terms-conditions-css*/
+.terms__content .privacy__text h1 {
+    font-size: 50px;
+	white-space:nowrap;
+}
+.terms__content {
+    padding: 100px 0;
+    background-image: url(../images/termsbg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 640px;
+    position: relative;
+}
+
+.terms__section {
+    padding: 50px 0 0 0;
+}
+
+.terms__section ul {
+    font-size: 18px;
+    font-family: 'Barlow';
+    color: #000;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.terms__section li {
+    position: relative;
+}
+
+.terms__section li::before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    bottom: 0;
+    left: -12px;
+    background: #000;
+    width: 5px;
+    height: 5px;
+    border-radius: 30px;
+}

@@ -1,0 +1,509 @@
+/*media queries start*/
+
+@media screen and (max-width:1199px) {
+	.container {
+		padding: 0 30px;
+	}
+
+	.luxury-hotel__content h1 {
+		font-size: 50px;
+	}
+
+	.delux__content p {
+		font-size: 14px;
+		line-height: 21px;
+	}
+}
+
+@media screen and (max-width:1024px) {
+	.delux__content p {
+		font-size: 14px;
+		line-height: 16px;
+	}
+	.useful-links ul{
+		gap:10px;
+	}
+	.hotel.text-card p {
+		font-size: 13px;
+		line-height: 21px;
+	}
+
+	.delux__content h3 {
+		font-size: 27px;
+	}
+
+	h3.text-new {
+		font-size: 21px;
+	}
+
+	.luxury-hotel__content.casino.resort h1 {
+		font-size: 39px;
+		line-height: 60px;
+	}
+
+	.luxury-hotel__content.casino.resort span {
+		font-size: 15px;
+	}
+
+	.visiting__content p {
+		max-width: 90%;
+	}
+
+	.privacy__infos {
+		font-size: 18px;
+		line-height: 20px;
+	}
+	.luxury-hotel__content span{
+    font-size: 17px;
+    margin-bottom: 16px;
+	}
+	.useful-links li a {
+    font-size: 13px;
+}
+.terms__content .privacy__text h1 {
+    font-size: 45px;
+}
+}
+
+@media screen and (max-width:991px) {
+	.delux__picture img {
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.delux__picture {
+		height: 100%;
+	}
+
+	.luxury-hotel__content h1 {
+		font-size: 40px;
+	}
+
+	.delux__content {
+		margin: 0 0 30px 0;
+		padding-top: 30px;
+		padding-bottom: 30px;
+
+	}
+
+	.delux__content h3 {
+		font-size: 24px;
+	}
+
+	.delux__content.part {
+		padding-top: 25px;
+
+	}
+
+	.delux__content p {
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	.useful-links li a {
+		font-size: 14px;
+	}
+
+	.contact-us p {
+		font-size: 13px;
+	}
+
+	.terms__section li {
+		line-height: 23px;
+	}
+	.card__hotel {
+    height: 100%;
+    padding-top: 10px;
+}
+.contact-us a {
+	font-size:14px;
+}
+}
+
+@media screen and (max-width:768px) {
+	.luxury-hotel__content span {
+		font-size: 15px;
+	}
+
+	.privacy__text h1 {
+		font-size: 36px;
+	}
+
+	.luxury-hotel__content h1 {
+		font-size: 36px;
+	}
+		
+	.luxury-hotel__content.casino h1 {
+    font-size: 36px;
+}
+	.delux__content {
+		padding-left: 0;
+	}
+
+	.delux__content.part {
+		padding-right: 0;
+	}
+
+	.service__card p {
+		max-width: 100%;
+	}
+
+	.useful-links li a {
+		font-size: 12px;
+	}
+
+	.luxury-hotel__content.casino.resort h1 {
+    font-size: 36px;
+    line-height: 48px;
+}
+	.luxury-hotel__content.casino.resort span {
+		font-size: 13px;
+		line-height: 21px;
+	}
+
+	.social-icons {
+		text-align: center;
+	}
+
+	.social-icons ul {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.social-icons p {
+		color: #fff;
+		margin: 1.5rem 0;
+		font-size: 1.4rem;
+	}
+
+	.useful-links {
+		text-align: center;
+		margin: 2rem;
+	}
+
+	.our_service {
+		text-align: center;
+	}
+
+	.contact-us {
+		text-align: center;
+	}
+	.contact__banner h1 {
+    font-size: 36px;
+}
+	.card__hotel {
+		padding-top: 30px;
+	}
+
+	.hotel.text-card p {
+		font-size: 16px;
+	}
+
+	.text-card {
+		padding: 40px;
+	}
+	
+	.social-icons a:last-child {
+		display: inline-block;
+		background: #E5C694;
+		margin-right: 1rem;
+		width: 3.5rem;
+		height: 3.5rem;
+		line-height: 3.5rem;
+		text-align: center;
+		font-size: 2rem;
+		border-radius: 50%;
+		transition: all 0.3s ease-in-out;
+	}
+	.contact-us a {
+    font-size: 14px;
+    line-height: 26px;
+}
+.terms__content .privacy__text h1 {
+    font-size: 36px;
+}
+.social-icons p {
+    color: #fff;
+    margin: 1.5rem 0;
+    font-size: 14px;
+}
+.useful-links li a {
+    font-size: 14px;
+}
+.useful-links ul {
+    gap: 15px;
+}
+.contact-us h4 {
+    font-size: 23px;
+}
+}
+@media screen and (max-width:767px) {
+	.delux__content {
+    margin: 0 0 30px 0;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+.delux__content.part {
+    padding-top: 0px;
+}
+}
+@media screen and (max-width:575px) {
+	.luxury-hotel__content.casino.resort h1 {
+		font-size: 21px;
+		line-height: 35px;
+	}
+
+	.luxury-hotel__content.casino.resort span {
+		font-size: 11px;
+		line-height: 21px;
+	}
+
+	.social-icons,
+	.links__main {
+		border-right: none;
+	}
+
+	.useful-links {
+		margin: 8px 0;
+	}
+	.contact-us {
+     margin-top: 0px; 
+}
+	.useful-links ul {
+    display: block;
+    gap: 0;
+}
+	.site-mail a {
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	.luxury-hotel__content span {
+		font-size: 12px;
+		letter-spacing: 0px;
+		margin-bottom: 20px;
+	}
+
+	.luxury-hotel__content h1 {
+		font-size: 19px;
+	}
+
+	.banner__main img {
+		height: 500px;
+	}
+
+	.banner__main.part img {
+		height: 500px;
+	}
+
+	.luxury-hotel__content.casino h1 {
+		font-size: 33px;
+	}
+
+	.delux__section {
+		padding: 50px 0 0 0;
+	}
+
+	.site-nav {
+		width: 100%;
+	}
+
+	.site-nav ul {
+		display: block;
+	}
+
+	.footer {
+		margin-top: 20px;
+	}
+
+	.service__card p {
+		line-height: 21px;
+		font-size: 16px;
+	}
+
+	.visiting__content p {
+		font-size: 16px;
+	}
+
+	.commenting__section p {
+		font-size: 16px;
+	}
+
+	.contact__banner h1 {
+		font-size: 40px;
+	}
+
+	.contact__banner {
+		height: 500px;
+	}
+	
+	.privacy__infos {
+		font-size: 13px;
+		line-height: 20px;
+		text-align: justify;
+	}
+
+	.privacy__content {
+		height: 500px;
+	background-attachment: inherit;
+	}
+
+	.privacy__text h1 {
+		white-space: nowrap;
+	}
+
+	.privacy__infos {
+		font-weight: 500;
+	}
+
+	.terms__content {
+		height: 500px;
+	background-attachment: inherit;
+	}
+
+	.terms__section li {
+		font-size: 13px;
+		font-weight: 500;
+	}
+
+	.information__Content p {
+		font-size: 13px;
+		font-weight: 500;
+	}
+}
+
+@media screen and (max-width:425px) {
+	.luxury-hotel__content.casino h1 {
+		line-height: 34px;
+		font-size: 27px;
+	}
+
+	.delux__title h2 {
+		font-size: 45px;
+	}
+.contact__banner h1 {
+    font-size: 28px;
+}
+	.visiting__content p {
+		font-size: 13px;
+		max-width: 100%;
+		text-align:justify;
+	}
+
+	.commenting__section h3 {
+		font-size: 16px;
+	}
+
+	.best-wishes h4 {
+		font-size: 16px;
+
+	}
+
+	.information__Content p {
+		font-size: 11px;
+		font-weight: 500;
+	}
+	.text-card {
+    padding: 20px;
+}
+.terms__content .privacy__text h1 {
+    font-size: 30px;
+}
+}
+
+@media screen and (max-width:395px) {
+	.hotel__cards .container {
+		padding: 0 15px;
+	}
+
+	.contact__banner h1 {
+		font-size: 26px;
+	}
+
+	.services__main {
+		padding: 0;
+	}
+
+	.visiting__content p {
+		text-align: left;
+	}
+
+	.luxury-hotel__content.casino.texts h1 {
+		line-height: 34px;
+		font-size: 20px;
+	}
+
+	.luxury-hotel__content h1 {
+		font-size: 16px;
+		line-height: 31px;
+	}
+
+	h3.text-new {
+		font-size: 16px !important;
+	}
+
+	.luxury-hotel__content span {
+		font-size: 11px;
+		letter-spacing: 0;
+		word-spacing: 0.7px;
+		margin-bottom:10px;
+	}
+
+	.delux__title h2 {
+		font-size: 40px;
+	}
+
+	.menu-toggle .bar-1,
+	.bar-2,
+	.bar-3 {
+		width: 24px;
+	}
+
+	.site-mail a {
+		font-size: 14px;
+		line-height: 21px;
+	}
+
+	.site-logo img {
+		max-width: 140px;
+	}
+
+	.delux__content {
+		margin: 0 0 30px 0;
+		padding-top: 0;
+		padding-bottom: 20px;
+	}
+
+	.delux__content.part {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.delux__content h3 {
+		font-size: 20px;
+	}
+
+	.delux__content p {
+		font-size: 14px;
+		line-height: 21px;
+	}
+
+	.hotel.text-card p {
+		font-size: 13px;
+		line-height: 19px;
+	}
+
+	.online__policy h3 {
+		font-size: 14px;
+	}
+
+	.terms__section li {
+		line-height: 19px;
+	}
+
+	.terms__section li::before {
+		top: 6px;
+		;
+	}
+}
