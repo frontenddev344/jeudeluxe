@@ -498,7 +498,9 @@ header.site-header.sticky .menu-toggle .bar-3 {
 .useful-links li a:hover {
     color: #dabf8b;
 }
-
+.information__Content.casino__text p {
+    text-align: left;
+}
 
 .social-icons, .links__main {
     border-right: 1px solid grey;
@@ -527,7 +529,12 @@ header.site-header.sticky .menu-toggle .bar-3 {
 }
 
 /*luxury-hotles-css */
-
+.information__Content.casino__text {
+    display: none;
+}
+span.new-hide {
+    display: none !important;
+}
 .luxury-hotel__content {
     display: flex;
     flex-direction: column;
@@ -580,7 +587,20 @@ header.site-header.sticky .menu-toggle .bar-3 {
 .luxury-btn i {
     padding-left: 5px;
 }
-
+.delux__section.casino {
+    padding: 50px 0 0 0;
+}
+.luxury-hotel__content.casino.texts {
+    width: 80%;
+}
+.luxury-hotel__content.casino.texts span {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    color: #fff;
+}
 .delux__section {
     padding: 100px 0 0 0;
 }
@@ -889,3 +909,13 @@ header.site-header.sticky .menu-toggle .bar-3 {
     height: 5px;
     border-radius: 30px;
 }
+.footer .contact-us ul a span {
+    display: inline-block;
+    padding-right: 5px;
+}
+
+/* collateral-css*/
+.collateral__picture img {
+    border-radius: 30px;
+}
+/* collateral-css*/

@@ -16,6 +16,13 @@
 }
 
 @media screen and (max-width:1024px) {
+	.information__Content.casino__text p {
+    text-align: justify;
+}
+.luxury-hotel__content.casino.texts span {
+	font-size: 16px;
+    line-height: 25px;
+}
 	.delux__content p {
 		font-size: 14px;
 		line-height: 16px;
@@ -239,6 +246,15 @@
 }
 }
 @media screen and (max-width:767px) {
+	.information__Content.casino__text {
+    display: block;
+}
+span.new-hide {
+    display: block !important;
+}
+.luxury-hotel__content.casino.texts span {
+    display: none;
+}
 	.delux__content {
     margin: 0 0 30px 0;
     padding-top: 0px;
