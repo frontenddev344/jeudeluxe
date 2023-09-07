@@ -61,7 +61,7 @@ html {
 
 .menu-toggle {
     display: block;
-	cursor:pointer;
+    cursor: pointer;
 }
 
 .closed-menu {
@@ -72,9 +72,11 @@ html {
     right: 15px;
     display: inline-block;
 }
+
 .closed-menu a:hover {
     color: #fff;
 }
+
 .closed-menu {
     display: block;
 }
@@ -178,9 +180,11 @@ ul.dropdown-content {
 .card__hotel {
     height: 100%;
 }
+
 .hotel.text-card p:hover {
     color: #000000;
 }
+
 .btn-hotel {
     border: 1px solid #000000;
     padding: 10px 20px;
@@ -196,15 +200,18 @@ ul.dropdown-content {
 .text-card a.btn-hotel:focus {
     color: #000000;
 }
+
 .btn-hotel:hover {
     background: #dcbf8b;
     color: #000;
     border: 1px solid #dcbf8b;
 }
+
 .card-inr img {
     height: 300px;
-	object-fit:cover;
+    object-fit: cover;
 }
+
 /*header end*/
 
 .footer {
@@ -429,9 +436,11 @@ header.site-header.sticky .menu-toggle .bar-3 {
 .card-inr:hover {
     transform: translateY(-8px);
 }
+
 .information__Content {
     padding: 50px 0 0 0;
 }
+
 .information__Content p {
     font-size: 15px;
     font-family: 'Roboto Slab';
@@ -439,6 +448,7 @@ header.site-header.sticky .menu-toggle .bar-3 {
     font-weight: 500;
     text-align: center;
 }
+
 .hotel.text-card h2 {
     color: #dabf8b;
     font-family: 'Marcellus', serif;
@@ -498,11 +508,13 @@ header.site-header.sticky .menu-toggle .bar-3 {
 .useful-links li a:hover {
     color: #dabf8b;
 }
+
 .information__Content.casino__text p {
     text-align: left;
 }
 
-.social-icons, .links__main {
+.social-icons,
+.links__main {
     border-right: 1px solid grey;
     display: flex;
     flex-direction: column;
@@ -532,9 +544,11 @@ header.site-header.sticky .menu-toggle .bar-3 {
 .information__Content.casino__text {
     display: none;
 }
+
 span.new-hide {
     display: none !important;
 }
+
 .luxury-hotel__content {
     display: flex;
     flex-direction: column;
@@ -587,12 +601,15 @@ span.new-hide {
 .luxury-btn i {
     padding-left: 5px;
 }
+
 .delux__section.casino {
     padding: 50px 0 0 0;
 }
+
 .luxury-hotel__content.casino.texts {
     width: 80%;
 }
+
 .luxury-hotel__content.casino.texts span {
     font-weight: 500;
     font-size: 17px;
@@ -601,6 +618,7 @@ span.new-hide {
     font-family: 'Barlow', sans-serif;
     color: #fff;
 }
+
 .delux__section {
     padding: 100px 0 0 0;
 }
@@ -718,7 +736,7 @@ span.new-hide {
 
 .contact__banner h1 {
     font-size: 50px;
-  font-family: 'Roboto Slab';
+    font-family: 'Roboto Slab';
     color: #dabf8b;
     position: absolute;
     z-index: 1;
@@ -753,7 +771,7 @@ span.new-hide {
     line-height: 22px;
     font-family: 'Barlow';
     color: #000;
-	margin-top:10px;
+    margin-top: 10px;
 }
 
 .service__content.media {
@@ -869,8 +887,9 @@ span.new-hide {
 /* terms-conditions-css*/
 .terms__content .privacy__text h1 {
     font-size: 50px;
-	white-space:nowrap;
+    white-space: nowrap;
 }
+
 .terms__content {
     padding: 100px 0;
     background-image: url(../images/termsbg.jpg);
@@ -909,6 +928,7 @@ span.new-hide {
     height: 5px;
     border-radius: 30px;
 }
+
 .footer .contact-us ul a span {
     display: inline-block;
     padding-right: 5px;
@@ -918,14 +938,17 @@ span.new-hide {
 .row.collateral {
     padding: 30px 0;
 }
+
 .collateral__secton {
-padding: 50px 0;
+    padding: 50px 0;
 }
+
 .collateral__picture img {
     border-radius: 30px;
     max-height: 280px;
     height: 100%;
 }
+
 .collateral__content {
     max-width: 70%;
     display: flex;
@@ -934,12 +957,14 @@ padding: 50px 0;
     height: 100%;
     padding-left: 25px;
 }
+
 .collateral__content a {
     font-size: 30px;
     font-family: 'Barlow';
     line-height: 40px;
     color: #dabf8b;
 }
+
 .collateral__content p {
     font-size: 16px;
     font-weight: 400;
@@ -948,7 +973,9 @@ padding: 50px 0;
     line-height: 26px;
     text-align: justify;
 }
+
 .information__Content.collateral {
     padding: 0;
 }
+
 /* collateral-css*/
