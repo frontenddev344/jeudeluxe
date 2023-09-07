@@ -948,4 +948,7 @@ padding: 50px 0;
     line-height: 26px;
     text-align: justify;
 }
+.information__Content.collateral {
+    padding: 0;
+}
 /* collateral-css*/
