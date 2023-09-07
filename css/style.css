@@ -915,7 +915,37 @@ span.new-hide {
 }
 
 /* collateral-css*/
+.row.collateral {
+    padding: 30px 0;
+}
+.collateral__secton {
+padding: 50px 0;
+}
 .collateral__picture img {
     border-radius: 30px;
+    max-height: 280px;
+    height: 100%;
+}
+.collateral__content {
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding-left: 25px;
+}
+.collateral__content a {
+    font-size: 30px;
+    font-family: 'Barlow';
+    line-height: 40px;
+    color: #dabf8b;
+}
+.collateral__content p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    font-family: 'Barlow';
+    line-height: 26px;
+    text-align: justify;
 }
 /* collateral-css*/
