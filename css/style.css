@@ -948,7 +948,7 @@ span.new-hide {
 }
 
 .collateral__picture img {
-    border-radius: 30px;
+    border-radius: 6px;
     max-height: 280px;
     object-fit: cover;
     height: 100%;
