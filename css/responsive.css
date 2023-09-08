@@ -461,6 +461,10 @@
 		font-size: 13px;
 		font-weight: 500;
 	}
+	.luxury-hotel__content.collateral h1 {
+		font-size: 21px;
+		line-height: 34px;
+	}
 }
 
 @media screen and (max-width:425px) {
