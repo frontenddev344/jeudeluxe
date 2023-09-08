@@ -508,6 +508,10 @@
 	.terms__content .privacy__text h1 {
 		font-size: 30px;
 	}
+	.luxury-hotel__content.collateral h1 {
+		font-size: 17px;
+		line-height: 28px;
+	}
 }
 
 @media screen and (max-width:395px) {
