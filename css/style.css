@@ -969,7 +969,22 @@ span.new-hide {
     line-height: 40px;
     color: #dabf8b;
 }
-
+a.collateral-btn {
+    border: 1px solid #000000;
+    padding: 10px 20px;
+    color: #dcbf8b;
+    font-size: 16px;
+    background: #000;
+    white-space: nowrap;
+    font-weight: 600;
+    font-family: 'Marcellus';
+    border-radius: 4px;
+}
+a.collateral-btn:hover {
+    color: #000;
+    background: #dcbf8b;
+    border: 1px solid #dcbf8b;
+}
 .collateral__content p {
     font-size: 16px;
     font-weight: 400;
