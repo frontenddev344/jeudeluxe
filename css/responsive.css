@@ -153,6 +153,17 @@
 	.information__Content.list p {
 		text-align: justify;
 	}
+	.social-icons a:last-child {
+		display: inline-block;
+		margin-right: 5px;
+		width: 3.5rem;
+		height: 3.5rem;
+		line-height: 37px;
+		text-align: center;
+		font-size: 24px;
+		border-radius: 50%;
+		transition: all 0.3s ease-in-out;
+	}
 }
 
 @media screen and (max-width:768px) {
