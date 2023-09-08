@@ -172,6 +172,10 @@
 		border-radius: 50%;
 		transition: all 0.3s ease-in-out;
 	}
+	.luxury-hotel__content.collateral h1 {
+		font-size: 29px;
+		line-height: 47px;
+	}
 }
 
 @media screen and (max-width:768px) {
