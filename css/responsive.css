@@ -85,6 +85,10 @@
 	.collateral__content {
 		max-width: 100%;
 	}
+	.luxury-hotel__content.collateral h1 {
+		font-size: 40px;
+		line-height: 47px;
+	}
 }
 
 @media screen and (max-width:991px) {
