@@ -59,22 +59,37 @@
 
   <!-- Start banner Section -->
   <div class="banner__section">
-    <div class="container-fluid">
-      <div class="item">
-        <div class="row banner flex-wrap-reverse">
-          <div class="col-lg-12 col-md-12 col-sm-12">
-            <div class="banner__main part">
-              <img src="images/resortnew1.webp" alt="Resorts-new">
+        <div class="container-fluid">
+            <div class="owl-carousel owl-theme luxury-slider">
+                <div class="item">
+                    <div class="row banner flex-wrap-reverse">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <div class="banner__main">
+                                <img src="images/resortnew1.webp">
+                            </div>
+                            <div class="luxury-hotel__content collateral">
+                                <h1>Resorts avec casino</h1>
+                                <span>Hôtels-Casinos au Canada : Luxe, Divertissement et Excitation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row banner flex-wrap-reverse">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <div class="banner__main">
+                                <img src="images/resortnew2.webp">
+                            </div>
+                            <div class="luxury-hotel__content collateral">
+                                <h1>Resorts avec casino</h1>
+                                <span>Hôtels-Casinos au Canada : Luxe, Divertissement et Excitation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="luxury-hotel__content collateral">
-              <h1>Resorts avec casino</h1>
-              <span>Hôtels-Casinos au Canada : Luxe, Divertissement et Excitation</span>
-            </div>
-          </div>
         </div>
-      </div>
     </div>
-  </div>
   <!-- End banner Section -->
 
   <!-- Start-information-section-->
@@ -307,6 +322,29 @@
       }
     })
   </script>
+  
+   <script>
+        $('.luxury-slider').owlCarousel({
+            loop: true,
+            margin: 0,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                600: {
+                    items: 1,
+                    nav: false
+                },
+                1000: {
+                    items: 1,
+                    nav: true,
+                    loop: true
+                }
+            }
+        })
+    </script>
 
   <script>
     $(document).ready(function () {
