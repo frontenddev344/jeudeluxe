@@ -969,6 +969,16 @@ span.new-hide {
     line-height: 40px;
     color: #dabf8b;
 }
+
+.collateral__content p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    font-family: 'Barlow';
+    line-height: 26px;
+    text-align: justify;
+}
+
 a.collateral-btn {
     border: 1px solid #000000;
     padding: 10px 20px;
@@ -980,18 +990,11 @@ a.collateral-btn {
     font-family: 'Marcellus';
     border-radius: 4px;
 }
+
 a.collateral-btn:hover {
     color: #000;
     background: #dcbf8b;
     border: 1px solid #dcbf8b;
-}
-.collateral__content p {
-    font-size: 16px;
-    font-weight: 400;
-    color: #000;
-    font-family: 'Barlow';
-    line-height: 26px;
-    text-align: justify;
 }
 
 .information__Content.collateral {
@@ -999,3 +1002,42 @@ a.collateral-btn:hover {
 }
 
 /* collateral-css*/
+
+
+/* divertissement-css*/
+.divertissement__text h3 {
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Barlow';
+    line-height: 40px;
+    color: #dabf8b;
+}
+
+.divertissement__text p {
+    text-align: left;
+}
+
+.collateral__content.divert a {
+    font-size: 18px;
+    line-height: 25px;
+    display: inline-block;
+}
+
+.collateral__picture.entertainment {
+    height: 100%;
+}
+
+.collateral__picture.entertainment img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.collateral__content.divert h3 {
+    font-size: 18px;
+}
+
+.collateral__content.divert p {
+    margin-bottom: 20px;
+}
+
+/* divertissement-css*/
