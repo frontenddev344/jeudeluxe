@@ -313,12 +313,10 @@
 	.collateral__secton {
 		padding: 50px 0 0 0;
 	}
-
 	.divertissement__text {
-		padding: 10px 0;
-	}
-
-	.information__Content p {
+    padding: 10px 0;
+}
+.information__Content p{
 		font-size: 14px;
 	}
 }
@@ -526,6 +524,10 @@
 		font-size: 17px;
 		line-height: 28px;
 	}
+	.divertissement__text p {
+    font-size: 14px;
+    text-align: justify;
+}
 }
 
 @media screen and (max-width:395px) {
